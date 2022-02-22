@@ -25,11 +25,23 @@ export const projects = [
     source: '',
     visit: 'https://github.com/kol242/vue-app-example',
     id: 2,
+  },
+  {
+    title: '"W&W Manager App"',
+    description:'Simple web application where you can manage workplaces and workers by reading, adding, updating and removing them from database. Built with React.js.',
+    image: '/images/ww-manager-app.jpg',
+    tags: ['Vue', 'JS', 'HTML', 'SCSS'],
+    source: '',
+    visit: 'https://github.com/kol242/ww-manager-app',
+    id: 3,
+  },
+  {
+    title: '"Top Pop App"',
+    description:'Simple website displaying top 10 songs currently ranked on Deezer music platform. The app was built with React.js',
+    image: '/images/top_pop.jpg',
+    tags: ['Vue', 'JS', 'HTML', 'SCSS'],
+    source: '',
+    visit: 'https://github.com/kol242/top-pop-app/tree/main/top-pop',
+    id: 3,
   }
-];
-
-export const TimeLineData = [
-  { year: 2019, text: 'Started learning web development', },
-  { year: 2020, text: 'Created my first projects, starting volunteering at Edit', },
-  { year: 2021, text: 'Started working on my first job as web developer', }
 ];

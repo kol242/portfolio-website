@@ -11,7 +11,7 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center style={{ textAlign: "left" }}>
-          Welcome!
+          Hello!
         </SectionTitle>
         <SectionText style={{ textAlign: "left" }}>
           My name is <Bold>Valentino Kolinger</Bold>, and in the next few steps I'm going to brief you about my work experience and knowledge as web developer.
