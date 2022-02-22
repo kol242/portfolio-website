@@ -42,6 +42,7 @@ export const projects = [
     tags: ['Vue', 'JS', 'HTML', 'SCSS'],
     source: '',
     visit: 'https://github.com/kol242/top-pop-app/tree/main/top-pop',
+    website: 'https://top-pop-app.vercel.app/',
     id: 3,
   }
 ];

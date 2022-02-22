@@ -3,6 +3,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import { FaGithub } from 'react-icons/fa';
+import { BsGlobe } from 'react-icons/bs';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -20,6 +21,7 @@ const Projects = () => (
           <CardInfo>{description}</CardInfo>
           <UtilityList>
             <ExternalLinks href={visit}><FaGithub /> Code</ExternalLinks>
+            <ExternalLinks href={website}><BsGlobe /> Visit</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
