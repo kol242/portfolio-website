@@ -2,7 +2,7 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -20,7 +20,7 @@ const Projects = () => (
           <CardInfo>{description}</CardInfo>
           <UtilityList>
             <ExternalLinks href={visit}><FaGithub /> Code</ExternalLinks>
-            { website ? <ExternalLinks href={website}>Visit</ExternalLinks> : null }
+            { website ? <ExternalLinks href={website}><FaGlobe/> Visit</ExternalLinks> : null }
           </UtilityList>
         </BlogCard>
       ))}
