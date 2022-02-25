@@ -25,7 +25,7 @@ export const projects = [
     image: '/images/web_3.jpg',
     tags: ['Vue', 'JS', 'HTML', 'SCSS'],
     source: '',
-    website: '',
+    website: 'https://easy-blogs-web-app.vercel.app/',
     visit: 'https://github.com/kol242/vue-app-example',
     id: 2,
   },
